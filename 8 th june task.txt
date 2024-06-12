@@ -1,0 +1,117 @@
+Datatypes in javascript:
+
+DATATYPES: JavaScript data types define the data type that a variable can store. 
+there are  two types of data types in js:
+1. Primitive Datatype
+2. Non-Primitive Datatype
+
+1.Primitive Datatype:
+
+*It stores only single values.
+* Primitive Immutable datatypes are immutable means they cannot change values once declared.
+* primitive datatypes include number
+                              string
+                              undefined
+                              Boolean
+                              null
+                              biginit
+                              symbol
+2.Non-primitive Datatype:
+
+*non primitive datatypes are mutable means change the  values when declared also
+
+*non primitive datatypes include array
+                                  object
+                                  functions
+                                  regexp
+                                  sets & maps
+
+a;--->declaration
+
+a=33;---> assigning
+
+var a=55; --->intialisation
+
+In 4 ways we can declare the varaiables,they are:
+
+1. automatic--->it can't use
+
+2. var--->recommended in few cases only
+
+3. let--->highly recommended
+
+4. const--->based on some requirements
+
+
+Declaring multiple:
+
+var a,b,c;
+a=10;
+b=20;
+c=30;
+console.log(a,b,c);
+o/p:a=10;b=20;c=30;
+
+
+difference between undefined and null:
+
+undefined: means a variable has been declared but has not yet been assigned a value.
+
+null:it is an assignment value, meaning that a variable has been declared and given the null value.
+
+
+
+
+
+1. What is the value of typeof typeof  true?
+     	 String(true is a type of Boolean and it is type of string)
+
+2. What is the result of null == undefined?
+     	 True(null is a empty value and undefined has no value)
+
+3. What is the value of +''?
+    	 0 (an operator converts an empty string to a number)
+ 
+4. What is the result of [] == false?
+True  /*(an empty array is zero and false is zero)*/
+
+5. What is the value of {} + {}?
+[object object][object object]  (because  it is the object)
+
+6. What is the value of typeof 42n?
+Big int(42n is the bigint)
+
+7. What is the result of "" == false?
+True(empty string changes to false )
+
+8. What is the value of Boolean("0")?
+ True(non-empty string is always true)
+
+9. What is the result of [] === []
+False(both are arrays but they are different memory allocation)
+10. What is the value of typeof Infinity?
+	Number( infinity is a number)
+11 What is the result of {} === {}?
+	False(both are objects with different memory allocation)
+12. What is the value of typeof NaN?
+	Number(NaN  is  also a special number)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              
+
+
+
+
